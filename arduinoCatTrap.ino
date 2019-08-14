@@ -29,7 +29,6 @@ void setup() {
   digitalWrite(PIN_SERVO_TRANSISTOR, HIGH); // switch off servo power
 
   GSM.begin(9600);
-  Serial.begin(9600);
 
   // synchronize A6 module with Arduino 9600 boudrate
   for( int i=0; i<=10; i++) {
